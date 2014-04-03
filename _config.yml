@@ -6,3 +6,6 @@ exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scs
 name: Gdovicak.com
 markdown: redcarpet
 pygments: false
+name: Ben Gdovicak 
+description: Thoughts and Projects of a Cleveland Software Craftsman
+url: http://www.gdovicak.com
