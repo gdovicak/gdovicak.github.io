@@ -2,7 +2,7 @@
 layout: post_page
 title:  "Versioning Jenkins Configs and Vim pastetoggle"
 date:   2014-06-27 05:41:00
-categories: Journal, Jenkins, Vim
+categories: Journal Jenkins Vim
 ---
 
 ###Jenkins
