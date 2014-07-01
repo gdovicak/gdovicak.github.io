@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: journal_page
 title:  "Versioning Jenkins Configs and Vim pastetoggle"
 date:   2014-06-27 17:41:00
 categories: Journal Jenkins Vim
@@ -15,3 +15,4 @@ I have been reading [Practical Vim] (http://pragprog.com/book/dnvim/practical-vi
 Anyhow, I find myself executing ":set paste", pasting text into the editor, and then calling ":set nopaste" many times a day. While reading the book today there was a tip to try mapping "pastetoggle" to the f5 key. This would allow to turn on and off pasting in normal or insert modes. This removes another annoyance I had and makes my text entry just a little bit easier. 
 
 This can be set when vim is launched at the command prompt or the following line can be added to a users .vimrc ":set pastetoggle=\<f5\>".
+

@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<main class="content">
+    <section class="container">
+    	<div class="row-fluid">
+    		<article class="home-icon">
+				<a href="/">
+					<i class="icon-home"></i> 
+				</a>
+			</article>
+			<article class="post">
+				<h2 class="content">{{page.title}}</h2>
+				<h5>{{ page.date | date: "%d %B %Y" }}</h5>
+				<section>
+					{{ content }}
+					<hr>
+				</section>
+                <section class="row-fluid footer">
+                  <h3 style="color: #81B71A">About the "Daily Journal" Series</h3>
+                  <p>
+                    This is part of a series of, hopefully, daily posts about what I learned throughout the current day. I read so many articles and accomplish so many different, small tasks that this is a place for me to be able to easily reflect on my daily accomplishments.
+                  </p>
+                  <p>
+                    Hopefully some of the things here are able to save some time for someone else out there. If a post has helped you or you have a comment please let me know at <a href="https://www.twitter.com/gdovicak" target="_blank">@gdovicak</a>.
+                  </p>
+                </section>
+				<section style="margin-bottom: 2em;">
+					{% if page.previous %} 
+							<a rel="prev" class="a-hover"href="{{ page.previous.url }}"><i class="icon-arrow-left"></i> {{ page.previous.title }}</a>
+						{% endif %}
+						{% if page.next %} 
+							<a rel="next" style="float:right" class="a-hover"href="{{ page.next.url }}">{{ page.next.title }} <i class="icon-arrow-right"></i></a>
+					{% endif %}
+				</section>
+			</article>
+		</div>
+	</section>
+</main>
