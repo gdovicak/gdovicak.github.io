@@ -1,21 +1,19 @@
 /* TEAM */
                             
-Your title: Ben Gdovicak.                        
-Site: ben@gdovicak.com, link to a contact form, etc.                         
-Twitter: Gdovicak                        
-Location: Cleveland, Ohio.
+Author/Owner: Ben Gdovicak                        
+Contact: Ben [a\t] gdovicak.com
+Twitter: @gdovicak                        
+From: Cleveland, Ohio.
 
 
 /* THANKS */
 
 HTML5 Muffin
 This is a Frappuccino Blog
-Name: Gdovicak.com
-
                             
 /* SITE */
                           
-Last update: 2013/08/23                   
+Last update: 2014/7/16                  
 Standards: HTML5, CSS3                   
 Components: Modernizr, jQuery, etc.                            
 Software: Jekyll, Vim
