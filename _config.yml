@@ -5,7 +5,7 @@ paginate: 10 # pagination basted on number of posts
 exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
 name: Gdovicak.com
 markdown: redcarpet
-pygments: false
+highlighter: null
 name: Ben Gdovicak 
 description: Thoughts and Projects of a Cleveland Software Craftsman
 url: http://www.gdovicak.com
