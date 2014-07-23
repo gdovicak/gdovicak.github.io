@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gdovicak.com
+title: Ben Gdovicak - Blog
 ---
 <!-- Content
     ================================================== -->
@@ -19,6 +19,7 @@ title: Gdovicak.com
             <div style="clear:left"></div>
     		<ul class="entries">
     		{% for post in paginator.posts %}
+            {% if post.categories[0] != 'smoker' %}
     		  <li>
     		    <a href="{{ post.url }}">
     		        <h3>{{ post.title }}</h3>
@@ -26,6 +27,7 @@ title: Gdovicak.com
                 <div>{{ post.content |truncatehtml | truncatewords: 30 }}</div>
     		    </a>
     		  </li>
+    		{% endif %}
     		{% endfor %}
     		</ul>
     	</div>

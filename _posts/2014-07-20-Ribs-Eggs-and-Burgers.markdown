@@ -2,7 +2,7 @@
 layout: post_page
 title:  "My First Smoke - Ribs, Eggs, and Burgers"
 date:   2014-07-20 22:00:00
-categories: Smoker Ribs Eggs Hamburgers
+categories: smoker
 ---
 
 ###Wood Chips
