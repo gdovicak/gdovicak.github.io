@@ -3,10 +3,10 @@
 #auto: true # automatically update your jekyll
 paginate: 10 # pagination basted on number of posts
 exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
-name: Gdovicak.com
+name: gdovicak.com
 markdown: redcarpet
 highlighter: null
 name: Ben Gdovicak 
-description: Thoughts and Projects of a Cleveland Software Craftsman
+description: Thoughts and Projects of a Cleveland Software Developer
 url: http://www.gdovicak.com
 domain: www.gdovicak.com
