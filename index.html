@@ -22,7 +22,7 @@ title: Ben Gdovicak - Blog
             {% if post.categories[0] != 'smoker' %}
     		  <li>
     		    <a href="{{ post.url }}">
-    		        <h3>{{ post.title }}</h3>
+    		        <h3 style="width:85%">{{ post.title }}</h3>
                 <time>{{ post.date | date: "%d %B %Y" }}</time>
                 <div>{{ post.content |truncatehtml | truncatewords: 30 }}</div>
     		    </a>

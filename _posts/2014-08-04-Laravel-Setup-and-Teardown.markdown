@@ -1,11 +1,11 @@
 ---
 layout: journal_page
 title:  "Laravel Unit Tests setUp and tearDown Example"
-date:   2014-07-24 22:00:00
+date:   2014-08-04 22:00:00
 categories: Journal Laravel Testing
 ---
 
-If you are writing a unit test and using the Laravel PHP framework, (I know, who writes unit tests in PHP apps), and extending Laravel's "TestCase" I recommend the first thing that you do when writing a new test class is write the following setUp and tearDown methods. 
+If you are writing a unit test and using the Laravel PHP framework, (I know, who writes unit tests in PHP), and extending Laravel's "TestCase" I recommend the first thing that you do when writing a new test class is write the following setUp and tearDown methods. 
 
 {% highlight ruby %}
 class FakeTest extends TestCase{
