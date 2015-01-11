@@ -5,7 +5,7 @@ date:   2015-01-10 12:15:00
 categories: Remote
 ---
 
-I have the freedom to work remote, sometimes, and I really appreciate it. Over the past several years there has been a lot of discussion about the pros and cons of working remotely. There has been [books](http://www.goodreads.com/book/show/17316682-remote?from_search=true) written about it. There have been many discussions amongst managers and other higher ups about whether it will help or hurt productivity. I am going to just give my thoughts about working remote and why I appreciate being able to do it when needed.
+I have the freedom to work remote, sometimes, and I really appreciate it. Over the past several years there has been a lot of discussion about the pros and cons of working remotely. There have been [books](http://www.goodreads.com/book/show/17316682-remote?from_search=true) written about it. There have been many discussions amongst managers and other higher ups about whether it will help or hurt productivity. I am going to just give my thoughts about working remote and why I appreciate being able to do it when needed.
 
 I love to work. I love programming, interracting with my team, and delivering great software. Even though I love all these things, at the end of the day the reason I work is to make sure my home/personal life is as enjoyable as possible using the benefits from my job. That is the primary reason that I work. I understand this isn't everyone's motive for working, but it is mine.
 
