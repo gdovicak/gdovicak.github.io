@@ -15,8 +15,8 @@
         <meta name="twitter:site" content="@gdovicak" />
         <meta name="twitter:title" content="{{ page.title }}" />
 
-        {% if post.content %}
-        <meta name="twitter:description" content="{{ post.content |truncatehtml | truncatewords: 200 }}" />
+        {% if page.content %}
+        <meta name="twitter:description" content="{{ page.content |truncatehtml | truncatewords: 200 }}" />
         {% endif %}
 
 		<link rel="stylesheet" href="/css/style.css">
