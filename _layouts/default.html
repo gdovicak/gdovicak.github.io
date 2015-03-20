@@ -108,17 +108,31 @@
         }
 
         $(document).ready(function(){
+          var title = encodeURIComponent('"' + document.title + '"'),
+              link = encodeURIComponent(document.location),
+              text = encodeURIComponent("Post by @gdovicak: ");
+
+          addTwitterButton(title, link, text);
+          applyEventLogging();
+        });
+
+        function addTwitterButton(title, link, text){
           var elm = $('#tweet_me');
 
           if(elm){
-            var title = encodeURIComponent(document.title),
-                link = encodeURIComponent(document.location),
-                text = encodeURIComponent("Blog post by @gdovicak: ");
-          
-                var a = $('<a style="cursor:hand;" target="_blank" href="https://twitter.com/home?status=' + text + title + '%20%20' + link + '"><img src="/assets/images/Twitter_512x512.png" width="35px" /></a>');
+            var a = $('<a id="twitter_button" style="cursor:hand;" target="_blank" href="https://twitter.com/home?status=' + text + title + '%20%20' + link + '"><img src="/assets/images/Twitter_512x512.png" width="35px" /></a>');
             $(elm).append(a);
           }
-        });
+        }
+
+        function applyEventLogging(){
+          $("#twitter_button").on('click', function(){
+            ga('send', 'event', 'Social', 'Click', 'Twitter', 1);
+            window.open($(this).attr('href'));
+
+            return false;
+          });
+        }
 
       </script>
 	</body>
