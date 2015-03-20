@@ -67,6 +67,9 @@
             margin: 15px 0px;
           }
         </style>
+
+	  <script src="/js/jquery.min.js"></script>
+
 	</head>
 	<body>
 	<!-- Header
@@ -88,7 +91,6 @@
 
 	<!-- Javascripts 
 	    ================================================= -->
-	<script async src="/js/jquery.min.js"></script>
 
     <!-- Analytics
     ================================================== -->
@@ -104,6 +106,19 @@
           ga('require', 'displayfeatures');
           ga('send', 'pageview');
         }
+
+        $(document).ready(function(){
+          var elm = $('#tweet_me');
+
+          if(elm){
+            var title = encodeURIComponent(document.title),
+                link = encodeURIComponent(document.location),
+                text = encodeURIComponent("Blog post by @gdovicak: ");
+          
+                var a = $('<a style="cursor:hand;" target="_blank" href="https://twitter.com/home?status=' + text + title + '%20%20' + link + '"><img src="/assets/images/Twitter_512x512.png" width="35px" /></a>');
+            $(elm).append(a);
+          }
+        });
 
       </script>
 	</body>
