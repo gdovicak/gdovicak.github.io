@@ -1,5 +1,5 @@
 ---
-layout: journal_page
+layout: post
 title:  "Fugitive.vim, Vyper VPN, and Better Communication"
 date:   2014-07-01 17:10:00
 categories: Journal VyperVPN Fugitive.vim Communication

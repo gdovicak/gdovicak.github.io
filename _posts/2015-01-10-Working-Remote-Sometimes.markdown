@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title:  "Working Remote... Sometimes"
 date:   2015-01-10 12:15:00
 categories: Remote

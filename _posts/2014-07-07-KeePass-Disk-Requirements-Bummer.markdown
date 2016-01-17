@@ -1,5 +1,5 @@
 ---
-layout: journal_page
+layout: post
 title:  "KeePass Disk Requirements... Bummer"
 date:   2014-07-07 22:10:00
 categories: Journal KeePass

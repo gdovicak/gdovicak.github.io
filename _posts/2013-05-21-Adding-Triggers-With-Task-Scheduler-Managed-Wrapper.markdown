@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title:  "Adding Triggers With Task Scheduler Managed Wrapper"
 date:   2013-05-21 12:00:00
 categories: windows scheduled-tasks 

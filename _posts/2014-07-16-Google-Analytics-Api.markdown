@@ -1,5 +1,5 @@
 ---
-layout: journal_page
+layout: post
 title:  "Google Analytics API - The Measurement Protocol"
 date:   2014-07-16 22:00:00
 categories: Journal Google-Analytics API

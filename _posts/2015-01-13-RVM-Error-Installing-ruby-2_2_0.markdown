@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title:  "RVM Error Installing ruby-2.2.0"
 date:   2015-01-13 12:15:00
 categories: RVM

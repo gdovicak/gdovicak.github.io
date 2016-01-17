@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title:  "Django nonrel and mongoDB on Heroku"
 date:   2012-02-23 12:00:00
 categories: heroku django 

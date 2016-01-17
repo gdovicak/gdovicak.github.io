@@ -1,5 +1,5 @@
 ---
-layout: journal_page
+layout: post
 title:  "Inserting Text at Postion 0 in Vim"
 date:   2014-06-30 17:10:00
 categories: Journal Vim

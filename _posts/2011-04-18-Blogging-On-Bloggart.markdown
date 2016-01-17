@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title:  "Blogging On Bloggart"
 date:   2011-04-18 12:00:00
 categories: Python Bloggart Appengine

@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title:  "My First Smoke - Ribs, Eggs, and Burgers"
 date:   2014-07-20 22:00:00
 categories: smoker

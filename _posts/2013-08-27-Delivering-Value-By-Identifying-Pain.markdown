@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title:  "Delivering Value by Identifying Pain"
 date:   2013-08-27 05:41:00
 categories: Software-Delivery

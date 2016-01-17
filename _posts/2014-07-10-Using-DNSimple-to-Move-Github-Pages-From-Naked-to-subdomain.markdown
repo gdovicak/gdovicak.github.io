@@ -1,5 +1,5 @@
 ---
-layout: journal_page
+layout: post
 title:  "Using DNSimple to Move Github Pages from a Naked Domain to a Subdomain"
 date:   2014-07-10 22:00:00
 categories: Journal DNSimple Github-Pages

@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title:  "Ubuntu 11.10 and the RT2500 rev01 Wireless Card"
 date:   2012-02-23 12:00:00
 categories: Wireless Ubuntu 

@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title:  "QR Code Bookmarklet"
 date:   2011-09-26 12:00:00
 categories: QR-code javascript 

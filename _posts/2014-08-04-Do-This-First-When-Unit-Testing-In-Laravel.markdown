@@ -1,5 +1,5 @@
 ---
-layout: journal_page
+layout: post
 title:  "Do This First When Unit Testing in Laravel"
 date:   2014-08-04 22:00:00
 categories: Journal Laravel Testing

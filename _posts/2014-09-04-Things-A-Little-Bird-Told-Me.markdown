@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title:  "Review of \"Things A Little Bird Told Me\""
 date:   2014-09-04 07:15:00
 categories: Book-Reviews laykAQAAQBAJ

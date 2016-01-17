@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title:  "Accessing The Gmail RSS Feed With cURL On OSX Mavericks"
 date:   2014-03-28 12:00:00
 categories: OSX cURL

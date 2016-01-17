@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: post
 title:  "Stubbing an App Engine Request"
 date:   2011-06-23 12:00:00
 categories: Python TDD Appengine 

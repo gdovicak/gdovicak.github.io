@@ -1,5 +1,5 @@
 ---
-layout: journal_page
+layout: post
 title:  "Versioning Jenkins Configs and Vim pastetoggle"
 date:   2014-06-27 17:41:00
 categories: Journal Jenkins Vim
