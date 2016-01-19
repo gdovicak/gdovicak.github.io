@@ -113,6 +113,13 @@ h1 a { color: #333;}
   -moz-border-radius: 75px;
 }
 
+.circular img{
+}
+
+.padded{
+    padding: 5px;
+}
+
 .entries{
     padding: 35px 0px 0px 15px;
     
@@ -149,4 +156,3 @@ nav a{
 .right{
   float:right;
 }
-
