@@ -5,11 +5,6 @@ date:   2011-09-26 12:00:00
 categories: QR-code javascript 
 ---
 
-<div style="float:right">
-  <img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=http%3A//www.gdovicak.com/admin/post/preview/101001" />
-</div>
-
-
 As a mobile website developer for [Easy2 Technologies](http://www.easy2.com)  I get a lot of emails or IMs containing something along the lines of "Hey, can you check this link out on your phone because ...." To get the link to my phone's browser I usually have to email it to myself. I became annoyed having to do this every time and wanted a better way to handle it.
 
 What I came up with was a [bookmarklet](http://en.wikipedia.org/wiki/Bookmarklet that will pop up a QR code containing a link to the current page. From there you can just use a qr code scanner on your phone to follow the link.
