@@ -100,10 +100,6 @@ h1 a { color: #333;}
   margin:-130px 0px 0px 75px;
 }
 
-.bio_pic{
-  background: url(/assets/images/bio_pic_square.jpg) no-repeat;
-}
-
 .circular{
   background-color:#FFFFFF;
   width: 150px;
@@ -111,13 +107,11 @@ h1 a { color: #333;}
   border-radius: 75px;
   -webkit-border-radius: 75px;
   -moz-border-radius: 75px;
+  padding: 7px;
+  margin: -125px 0px 0px 50px;
 }
 
 .circular img{
-}
-
-.padded{
-    padding: 5px;
 }
 
 .entries{
@@ -155,4 +149,10 @@ nav a{
 
 .right{
   float:right;
+}
+.social-icons{
+    margin-top: 110px;
+}
+.social-icons a{
+    margin:0px 7px;
 }

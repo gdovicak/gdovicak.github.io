@@ -8,12 +8,11 @@ From: Cleveland, Ohio.
 
 /* THANKS */
 
-HTML5 Muffin
-This is a Frappuccino Blog
+Brent Jackson for his theme (https://github.com/jxnblk/Heather)
                             
 /* SITE */
                           
-Last update: 2014/7/16                  
+Last update: 2015/7/16                  
 Standards: HTML5, CSS3                   
-Components: Modernizr, jQuery, etc.                            
+Components: JQuery, HTML5, CSS                            
 Software: Jekyll, Vim
