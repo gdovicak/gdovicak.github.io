@@ -10,7 +10,7 @@ Over the past several months testing has become an obsession of mine. This has b
 I have been working on a small application that requires an AJAX call, or RPC as Google calls it. When doing a RPC Google recommends (it is an obvious recommendation for more seasoned python developers but it wasn't to me yet) to not allow an a call with an "_" in the first character position. Google offers this [this](http://code.google.com/appengine/articles/rpc.html) snippet of code to determine if the request is valid or not.
 
 
-{% highlight python %}
+```python
 class RPCHandler(webapp.RequestHandler): 
     def __init__(self): 
         webapp.RequestHandler.__init__(self) 
@@ -43,14 +43,14 @@ class RPCHandler(webapp.RequestHandler):
 class RPCMethods: 
     def Add(self, *args): 
         ints = [int(arg) for arg in args] return sum(ints)
-{% endhighlight %}
+```
 
 I wanted to change this code a little bit to create classes that inherit from the RPCHandler class instead of having the RPCHandler call other classes. I needed to write a test against the RPCHandler class so that I refactor it without fear. My problem was the RPCHandler class inherited from the Request class and I did not know how to properly stub a request object.
 
 I tried using a mocking framework to do this and did not have much success. It required a lot of extra testing code. It seemed that there was a better way to do it. I then found a [blog post](http://blog.perthulin.com/2010/10/google-app-engine-unit-testing.html) by[Per Thulin](http://blog.perthulin.com/) that showed the proper parameters required for stubbing a request object for a POST method. &nbsp;I followed the code examples and it worked great, tests passed against the post method. &nbsp;
 
 
-{% highlight python %}
+```python
 handler = MainHandler() 
 
 handler.request = Request({ 'REQUEST_METHOD': 'POST', 
@@ -63,17 +63,16 @@ handler.request = Request({ 'REQUEST_METHOD': 'POST',
 
 handler.response = Response() 
 handler.post() 
-{% endhighlight %}
+```
 
 I then tried to write a test for a GET request and it didn&rsquo;t work. &nbsp;I was missing an environ parameter being passed through to the request object. I figured the RPCHandler code was working properly because Google would not have posted it as example code, so my test must have been broken. I wasn&rsquo;t exactly sure what other parameter I needed so I decided to look into the([source code](http://code.google.com/p/googleappengine/source/browse/trunk/python/google/appengine/ext/webapp/__init__.py)) of the request class from the App Engine SDK. On line 124 I found the following code:
 
 
-{% highlight python %}
+```python
 query = property(lambda self: self.query_string) 
-{% endhighlight %}
+```
 
-
-{% highlight python %}
+```python
 h = RPCHandler("RPCMethods") 
 
 h.request = webapp.Request({ 'REQUEST_METHOD': 'GET', 
@@ -87,4 +86,4 @@ h.request = webapp.Request({ 'REQUEST_METHOD': 'GET',
                              'wsgi.url_scheme': 'http'}) 
 
 h.get() 
-{% endhighlight %}
+```

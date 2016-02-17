@@ -9,7 +9,7 @@ I had a need to manage Windows scheduled tasks from the web so I went in search 
 
 Following the examples that are out there on the web did not work for my use case. I figured out to add a new trigger to an existing task I had to open the task and also set my account information on that task. I was not able to add a trigger without first setting my account information on that task. This is what I expected to work but it did not: 
 
-{% highlight c# %}
+```c#
 var st = new ScheduledTasks(); 
 var trigger = new DailyTrigger((short)hour, (short)minute); 
 var t = st.OpenTask(taskName); 
@@ -17,11 +17,11 @@ t.Triggers.Add(trigger);
 t.Save(); 
 t.Close(); 
 st.Dispose();
-{% endhighlight %}
+```
 
 Once I Added the line with SetAccountInformation everything worked: 
 
-{% highlight c# %}
+```c#
 var st = new ScheduledTasks(); 
 var trigger = new DailyTrigger((short)hour, (short)minute); 
 var t = st.OpenTask(taskName); 
@@ -30,4 +30,4 @@ t.Triggers.Add(trigger);
 t.Save(); 
 t.Close(); 
 st.Dispose();
-{% endhighlight %}
+```

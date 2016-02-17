@@ -7,7 +7,8 @@ categories: Journal Laravel Testing
 
 If you are writing phpunit and the Laravel PHP framework, (I know, who writes unit tests in PHP), and extending Laravel's "TestCase" I recommend the first thing that you do when writing a new test class is write the following setUp and tearDown methods. 
 
-{% highlight ruby %}
+``` ruby
+
 class FakeTest extends TestCase{
     public function setUp(){
         parent::setUp();
@@ -17,7 +18,7 @@ class FakeTest extends TestCase{
         Mockery::close();
     }
 }
-{% endhighlight %}
+```
 
 I haven't looked deeply into the source of what is happening in the parent setUp and tearDown methods but in tests that I am not doing this I have noticed very flaky behavior.
 
