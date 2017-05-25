@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/bengdovicak
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.gdovicak.com
+  * I am bengdovicak (https://keybase.io/bengdovicak) on keybase.
+  * I have a public key ASDKj2DW2t7xTBL_KW_31ewxLRi8HQm0WbZhSAPJ2-4-qwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120ca8f60d6dadef14c12ff296ff7d5ec312d18bc1d09b459b6614803c9dbee3eab0a",
+            "host": "keybase.io",
+            "kid": "0120ca8f60d6dadef14c12ff296ff7d5ec312d18bc1d09b459b6614803c9dbee3eab0a",
+            "uid": "b64af92c99082f99fb1d1b76f1307719",
+            "username": "bengdovicak"
+        },
+        "service": {
+            "hostname": "www.gdovicak.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.23"
+    },
+    "ctime": 1495733532,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1495733510,
+        "hash": "254c6c0d691e909cb3b11c7baf520af9a7bb8a3b6f12e9b7a7f0502ece39aa451793b823a807dd2e17cbe95f2472f26ef010516c69ff05bacfcd6929d9cb8045",
+        "seqno": 1111407
+    },
+    "prev": "e3b81a2d14904bcc4b59755efc882f367f62087a40ab8a067c163dc54ecc3a60",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgyo9g1tre8UwS/ylv99XsMS0YvB0JtFm2YUgDydvuPqsKp3BheWxvYWTFAvt7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwY2E4ZjYwZDZkYWRlZjE0YzEyZmYyOTZmZjdkNWVjMzEyZDE4YmMxZDA5YjQ1OWI2NjE0ODAzYzlkYmVlM2VhYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwY2E4ZjYwZDZkYWRlZjE0YzEyZmYyOTZmZjdkNWVjMzEyZDE4YmMxZDA5YjQ1OWI2NjE0ODAzYzlkYmVlM2VhYjBhIiwidWlkIjoiYjY0YWY5MmM5OTA4MmY5OWZiMWQxYjc2ZjEzMDc3MTkiLCJ1c2VybmFtZSI6ImJlbmdkb3ZpY2FrIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cuZ2RvdmljYWsuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMyJ9LCJjdGltZSI6MTQ5NTczMzUzMiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDk1NzMzNTEwLCJoYXNoIjoiMjU0YzZjMGQ2OTFlOTA5Y2IzYjExYzdiYWY1MjBhZjlhN2JiOGEzYjZmMTJlOWI3YTdmMDUwMmVjZTM5YWE0NTE3OTNiODIzYTgwN2RkMmUxN2NiZTk1ZjI0NzJmMjZlZjAxMDUxNmM2OWZmMDViYWNmY2Q2OTI5ZDljYjgwNDUiLCJzZXFubyI6MTExMTQwN30sInByZXYiOiJlM2I4MWEyZDE0OTA0YmNjNGI1OTc1NWVmYzg4MmYzNjdmNjIwODdhNDBhYjhhMDY3YzE2M2RjNTRlY2MzYTYwIiwic2Vxbm8iOjQsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAGZ3uUyFWgU94nzA5idFwPKN3cxH+1Ayh6B+LQ8neKzNBUJyUplFAhDLqF5PNnWY49QKhORyHyglztKLPFDHMD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICji38CkI0Nb0v7QaNBXYZ+AsaSudYXrozM6ZKDAVRsco3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bengdovicak
+
+==================================================================

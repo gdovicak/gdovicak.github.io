@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thoughts On \"Outcome Oriented\""
+title:  "Thoughts On the Post \"Outcome Oriented\""
 date:   2016-06-01 08:00:00
 categories: Post-Thoughts
 ---
