@@ -5,7 +5,9 @@ date:   2015-01-13 12:15:00
 categories: RVM
 ---
 
-On my mac running OS X 10.9, I was trying to install ruby-2.2.0 using rvm and I repeatedly received an error when it was trying to install with the commands rvm install ruby-2.2.0 and rvm reinstall ruby-2.2.0 after it errored out initially. 
+On my mac running OS X 10.9, I was trying to install ruby-2.2.0 using rvm and I
+repeatedly received an error when it was trying to install with the commands rvm
+install ruby-2.2.0 and rvm reinstall ruby-2.2.0 after it errored out initially.
 
 The error was:
 
@@ -28,9 +30,12 @@ showing last 15 lines of /Users/bengdovicak/.rvm/log/1421199912_ruby-2.2.0/insta
         from ./tool/rbinstall.rb:746:in `<main>'
 ```
 
-To try to figure out my issue I issued the above commands with --debug and I didn't receive any valuable feedback from that.
+To try to figure out my issue I issued the above commands with --debug and I
+didn't receive any valuable feedback from that.
 
-Trying to find information searching for the error I came across the rvm gem list command and when I ran that I received a different error which I wasn't expecting at all.
+Trying to find information searching for the error I came across the rvm gem
+list command and when I ran that I received a different error which I wasn't
+expecting at all.
 
 ``` shell
 rvm gem list error:
@@ -40,7 +45,8 @@ rvm gem list error:
     To eliminate this warning, please install libyaml and reinstall your ruby.
 ```
 
-That gave me helpful feedback on how to fix that error at least that I needed to get libyaml functioning correctly. I am not sure what happened to it. 
+That gave me helpful feedback on how to fix that error at least that I needed to
+get libyaml functioning correctly. I am not sure what happened to it.
 
 I then ran:
 
@@ -53,7 +59,8 @@ Error: libyaml-0.1.6 already installed
 To install this version, first `brew unlink libyaml'
 dev-mac:projects bengdovicak$ brew unlink libyaml
 Unlinking /usr/local/Cellar/libyaml/0.1.6... 1 symlinks removed
-dev-mac:projects bengdovicak$ brew reinstall libyaml  
+dev-mac:projects bengdovicak$ brew reinstall libyaml
 ```
 
-rvm gem list then worked fine and listed my gems. I decided to try installing ruby-2.2.0 again and it installed just fine. Reinstalling libyaml fixed my problems.
+rvm gem list then worked fine and listed my gems. I decided to try installing
+ruby-2.2.0 again and it installed just fine. Reinstalling libyaml fixed my problems.
