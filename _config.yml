@@ -5,10 +5,9 @@ name: Ben Gdovicak
 description: Thoughts and Projects of a Cleveland Software Developer
 url: http://www.gdovicak.com
 domain: www.gdovicak.com
-gems:
-  - jekyll-paginate
 
 markdown: kramdown
+plugins: [jekyll-paginate]
 
 kramdown:
   input: GFM
