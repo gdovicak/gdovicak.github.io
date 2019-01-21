@@ -2,7 +2,7 @@ FROM jekyll/jekyll as build
 WORKDIR /srv/jekyll
 COPY Gemfile* ./
 RUN bundle install
-COPY /srv/jekyll/_site ./
+COPY . ./
 RUN jekyll build
 RUN ls -la /srv/jekyll
 
