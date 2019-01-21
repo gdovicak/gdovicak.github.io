@@ -13,5 +13,5 @@ variables:
   imageName: 'gdovicak.github.io:$(build.buildId)'
 
 steps:
-- script: docker build -f Dockerfile -t $(imageName) .
+- script: docker build -t $(imageName) .
   displayName: 'docker build'
